@@ -1,0 +1,16 @@
+mes = int(input("Insira o número de um mês:\t"))
+
+match mes:
+    case 1: print("Seleccionou o mês de Janeiro")
+    case 2: print("Seleccionou o mês de Fevereiro")
+    case 3: print("Seleccionou o mês de Março")
+    case 4: print("Seleccionou o mês de Abril")
+    case 5: print("Seleccionou o mês de Maio")
+    case 6: print("Seleccionou o mês de Junho")
+    case 7: print("Seleccionou o mês de Julho")
+    case 8: print("Seleccionou o mês de Agosto")
+    case 9: print("Seleccionou o mês de Setembro")
+    case 10: print("Seleccionou o mês de Outubro")
+    case 11: print("Seleccionou o mês de Novembro")
+    case 12: print("Seleccionou o mês de Dezembro")
+    case _ : print("Mês inválido")
