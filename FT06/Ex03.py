@@ -11,7 +11,6 @@ idades=[25, 15, 19, 22, 37, 78, 46, 2, 67]
 
 idades.count(sum(1 for idade in idades if idade < 18))
 
-
 idades.sort(reverse=True)
 print(idades)
 

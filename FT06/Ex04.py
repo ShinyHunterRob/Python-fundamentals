@@ -33,7 +33,6 @@ print("Alínea b:")
 
 # b) Média dos inteiros
 
-
 print(f"Média dos inteiros: {sum(inteiros)/len(inteiros)}")
 
 print("Alínea c:")
