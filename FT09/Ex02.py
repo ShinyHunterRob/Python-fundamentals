@@ -11,6 +11,8 @@ notas = {
     "Francês": 16
 }
 
+print(notas)
+
 notas.update(
     {
         {"Espanhol":10},
@@ -20,4 +22,4 @@ notas.update(
 
 notas.pop("Alemão")
 
-notas["Espanhol"]=9
+notas["Espanhol"]=16
